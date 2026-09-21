@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/React_site/static/css/main.b62a2810.css",
+    "main.js": "/React_site/static/js/main.237fee5b.js",
+    "static/js/453.ed4f2b1c.chunk.js": "/React_site/static/js/453.ed4f2b1c.chunk.js",
+    "static/media/MaruBuri-Bold.ttf": "/React_site/static/media/MaruBuri-Bold.26c2b20c37a806f884b9.ttf",
+    "static/media/MaruBuri-SemiBold.ttf": "/React_site/static/media/MaruBuri-SemiBold.10c94f2d31b44dd73351.ttf",
+    "static/media/MaruBuri-Regular.ttf": "/React_site/static/media/MaruBuri-Regular.d093be503c1a0c7708e6.ttf",
+    "static/media/MaruBuri-Light.ttf": "/React_site/static/media/MaruBuri-Light.2001e943b6b25e3c4d72.ttf",
+    "static/media/bg01.jpg": "/React_site/static/media/bg01.5625dec3f8e44691df92.jpg",
+    "static/media/pink_bg.png": "/React_site/static/media/pink_bg.b4a6b4bb0c9e78089ed6.png",
+    "static/media/bg02.jpg": "/React_site/static/media/bg02.b7171e351f8922a69620.jpg",
+    "static/media/intro01.jpg": "/React_site/static/media/intro01.a2ddedb91ce701b57445.jpg",
+    "static/media/hero_banner.jpg": "/React_site/static/media/hero_banner.c29d7463aa8a5923822d.jpg",
+    "static/media/intro02.jpg": "/React_site/static/media/intro02.4795b16323d23e72abcb.jpg",
+    "static/media/bg_txt.png": "/React_site/static/media/bg_txt.9fe1db37d58fe128041e.png",
+    "static/media/intro03.jpg": "/React_site/static/media/intro03.48c6bf7ab2ad5896335c.jpg",
+    "static/media/share.png": "/React_site/static/media/share.0c4f5325e66cef801272.png",
+    "static/media/reload.png": "/React_site/static/media/reload.51a7e5410b098cd4c7a3.png",
+    "index.html": "/React_site/index.html",
+    "main.b62a2810.css.map": "/React_site/static/css/main.b62a2810.css.map",
+    "main.237fee5b.js.map": "/React_site/static/js/main.237fee5b.js.map",
+    "453.ed4f2b1c.chunk.js.map": "/React_site/static/js/453.ed4f2b1c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b62a2810.css",
+    "static/js/main.237fee5b.js"
+  ]
+}
