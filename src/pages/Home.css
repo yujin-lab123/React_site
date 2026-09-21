@@ -122,7 +122,7 @@ main{
   bottom: 230px;
   right: 25%;
   padding: 40px 50px;
-  background-color: var(--ivory-color);
+  background-color: var(--deep-ivory);
 }
 .intro_txt01{
   font-size: 18px;

@@ -50,7 +50,7 @@ if (sortSelect === 'new') {
 
       <div className='perfumsList_container'>
       {sortedPerfumes.map((perfume)=>(
-        <Link to={`/perfume/${perfume.id}`}>
+        <Link to={`/perfume/${perfume.id}`} key={perfume.id}>
         <div className="perfume_item" key={perfume.id}>
           <div className="perfume_img">
             <img src={perfume.image} alt={perfume.name} />

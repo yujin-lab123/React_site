@@ -1,0 +1,176 @@
+/*------------common-----------------*/
+
+.perfume_title_box{
+  margin-bottom: 50px;
+}
+.perfume_title_box .detail_main_title{
+  font-size: 2.25rem;
+  color: var(--point-pink);
+}
+.perfume_title_box .detail_sub_title{
+  font-size: 14px;
+  color: #333;
+}
+
+/*------------common-----------------*/
+
+.perfume_detail{
+  padding-top: 60px;
+  width: 1440px;
+  margin: 0 auto;
+}
+
+.perfume_detail .bread_nav{
+  width: 1440px;
+  margin: 0 auto;
+  margin-bottom: 60px;
+  display: flex;
+  align-items: center;
+  font-size: 12px;
+  gap: 15px;
+  color: #666;
+}
+.perfume_detail .bread_nav .fa-chevron-right{
+  color: #999;
+}
+.perfume_detail .bread_nav .home{cursor: pointer;}
+.perfume_detail .bread_nav .current{
+  font-weight: 600;
+  color: var(--black-color);
+  cursor: pointer;
+}
+
+/*---------------/perfumeDetail_bread----------------*/
+
+.perfume_detail .detail_container{
+  width: 1440px;
+  margin: 0 auto;
+}
+.detail_main{
+  width: 470px; height: auto;
+  margin: 0 auto;
+  background-color: var(--ivory-color);
+  border: 1px solid #aaa;
+  box-sizing: border-box;
+  position: relative;
+}
+.detail_main .fa-heart{
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  color: #aaa;
+  font-size: 36px;
+  cursor: pointer;
+}
+.detail_main .fa-heart:hover{
+  color: var(--point-pink);
+  transition: 0.3s;
+}
+
+.detail_text{
+  text-align: center;
+  margin: 40px 0;
+  margin-bottom: 100px;
+}
+.detail_text .perfume_name{
+  font-size: 28px;
+  font-weight: 600;
+}
+.detail_text .perfume_size{
+  font-size: 14px;
+  margin-bottom: 30px;
+}
+.detail_text .perfume_tags .perfume_tag{
+  border: 1px solid #aaa;
+  box-sizing: border-box;
+  background-color: rgba(255, 255, 255, 0.5);
+  margin: 0 20px;
+  padding: 5px 20px;
+}
+
+/*-------------Scent Image-----------------*/
+
+.scent_image_content .scent_images{
+  display: flex;
+}
+.scent_image_content .scent_images img{
+  width: 360px; height: auto;
+}
+
+.scent_info_content .perfume_title_box,
+.scent_story_content .perfume_title_box{
+  margin-top: 150px;
+}
+
+/*---------------Scent Info---------------*/
+.scent_info_content .scent_info{
+  display: flex;
+  align-items: center;
+  gap: 26px;
+  margin-bottom: 40px;
+}
+.scent_info .scent_info_tag{
+  width: 120px; height: 50px;
+  text-align: center;
+  line-height: 50px;
+  border: 1px solid #aaa;
+  box-sizing: border-box;
+  font-size: 20px;
+}
+.scent_info .scent_info_txt{
+  line-height: 20px;
+}
+
+/*---------------Scent Story----------------*/
+
+.scent_story_content .scent_story_title{
+  font-size: 1.75rem;
+  font-weight: 600;
+  margin-bottom: 50px;
+}
+.scent_story_content .story_text_box{
+  margin-bottom: 150px;
+}
+.scent_story_content .story_text_box .story_text{
+  line-height: 26px;
+  margin-bottom: 30px;
+}
+
+/*------다른 향수 알아보기 버튼------*/
+
+.detail_container .ex_perfumes{
+  width: 160px; height: 45px;
+  margin: 0 auto;
+  display: block;
+  font-size: 16px;
+  border: 1px solid var(--black-color);
+  box-sizing: border-box;
+  margin-bottom: 150px;
+}
+.detail_container .ex_perfumes:hover{
+  background-color: var(--black-color);
+  color: white;
+  transition: 0.3s;
+}
+
+
+
+/*----------배경 데코레이션 이미지------------*/
+
+.scent_info_content .scent_info_text{
+  position: relative;
+}
+.scent_info_content .scent_info_text .info_bg{
+  width: 450px; height: auto;
+  position: absolute;
+  top: -30%;
+  right: 0;
+  transform: rotate(15deg);
+}
+
+body{position: relative;}
+.bgTxt{
+  position: absolute;
+  top: 5%;
+  right: 0;
+}

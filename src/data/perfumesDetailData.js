@@ -4,14 +4,14 @@
     id: 1,
     nameKo: "코튼 베일",
     nameEn: "Cotton Veil",
-    volume: "50ml",
+    size: "50ml",
     tags: ["Clean", "Musk", "Soft"],
-    mainImage: "",
+    mainImage: process.env.PUBLIC_URL+'/images/perfumes/perfume1.png',
     scentImages: [
-      { src: "", alt: "비누" },
-      { src: "", alt: "목화솜" },
-      { src: "", alt: "얇은 베일 너머의 손" },
-      { src: "", alt: "구름 낀 하늘" },
+      { src:  process.env.PUBLIC_URL+'/images/perfume_detail/id01_01.jpg', alt: "새하얀 비누" },
+      { src: process.env.PUBLIC_URL+'/images/perfume_detail/id01_02.jpg', alt: "부드러운 목화솜" },
+      { src: process.env.PUBLIC_URL+'/images/perfume_detail/id01_03.jpg', alt: "얇은 베일" },
+      { src: process.env.PUBLIC_URL+'/images/perfume_detail/id01_04.jpg', alt: "깨끗한 구름" },
     ],
     scentInfo: [
       {
@@ -38,7 +38,7 @@
     ],
     scentStory: {
       title: "포근하고 깨끗한 세탁물 같은 청순한 사람",
-      paragraphs: [
+      story: [
         [
           "코튼 베일은 갓 세탁해 햇볕에 말린 흰 셔츠를 입고, 부드러운 미소를 짓는 청순한 사람 같아요.",
           "화려하게 꾸미기보다 깨끗한 피부와 단정한 옷차림이 어울리며, 곁에 있으면 포근하고 편안한 온기가 느껴지는 사람입니다.",
@@ -59,9 +59,9 @@
     id: 2,
     nameKo: "벨벳 시트러스",
     nameEn: "Velvet Citrus",
-    volume: "50ml",
+    size: "50ml",
     tags: ["Citrus", "Fresh", "Floral"],
-    mainImage: "",
+    mainImage: process.env.PUBLIC_URL+'/images/perfumes/perfume2.png',
     scentImages: [
       { src: "", alt: "반으로 자른 오렌지·귤" },
       { src: "", alt: "햇살이 비치는 물방울" },
@@ -93,7 +93,7 @@
     ],
     scentStory: {
       title: "햇살 아래 반짝이는 상큼하고 사랑스러운 사람",
-      paragraphs: [
+      story: [
         [
           "벨벳 시트러스는 아침 햇살이 가득 들어오는 카페 창가에서 환하게 웃고 있는 사람 같아요.",
           "밝은 에너지로 주변 분위기를 자연스럽게 살려주고, 처음 만나도 금세 편안해지게 만드는 매력이 있습니다.",
@@ -114,9 +114,9 @@
     id: 3,
     nameKo: "세지 에어",
     nameEn: "Sage Air",
-    volume: "50ml",
+    size: "50ml",
     tags: ["Clean", "Fresh", "Woody"],
-    mainImage: "",
+    mainImage: process.env.PUBLIC_URL+'/images/perfumes/perfume3.png',
     scentImages: [
       { src: "", alt: "세이지 허브 잎" },
       { src: "", alt: "안개 낀 초록 숲" },
@@ -148,7 +148,7 @@
     ],
     scentStory: {
       title: "이른 아침 숲의 공기처럼 차분하고 맑은 사람",
-      paragraphs: [
+      story: [
         [
           "세지 에어는 이른 아침 안개가 걷히는 숲길을 천천히 걷는 사람 같아요.",
           "서두르지 않고 자기만의 속도로 걸으면서도 주변을 세심하게 살피는 여유가 느껴집니다.",
@@ -169,9 +169,9 @@
     id: 4,
     nameKo: "아이론 베티버",
     nameEn: "Iron Vetiver",
-    volume: "50ml",
+    size: "50ml",
     tags: ["Dry", "Smoky", "Woody"],
-    mainImage: "",
+    mainImage: process.env.PUBLIC_URL+'/images/perfumes/perfume4.png',
     scentImages: [
       { src: "", alt: "차가운 금속 질감" },
       { src: "", alt: "타오르는 연기" },
@@ -203,7 +203,7 @@
     ],
     scentStory: {
       title: "말수는 적지만 존재감이 묵직한 사람",
-      paragraphs: [
+      story: [
         [
           "아이론 베티버는 조용히 서 있는데도 공간의 중심이 되는 사람 같아요.",
           "많은 말을 하지 않아도 한마디 한마디에 무게가 실려 있고, 눈빛에서 단단한 신뢰가 느껴집니다.",
@@ -224,9 +224,9 @@
     id: 5,
     nameKo: "벨벳 아이리스",
     nameEn: "Velvet Iris",
-    volume: "50ml",
+    size: "50ml",
     tags: ["Floral", "Elegant", "Soft"],
-    mainImage: "",
+    mainImage: process.env.PUBLIC_URL+'/images/perfumes/perfume5.png',
     scentImages: [
       { src: "", alt: "연보라색 아이리스 꽃" },
       { src: "", alt: "파우더 가루·화장솜" },
@@ -258,7 +258,7 @@
     ],
     scentStory: {
       title: "조용히 우아함이 배어나는 세련된 사람",
-      paragraphs: [
+      story: [
         [
           "벨벳 아이리스는 라벤더빛 노을이 지는 시간, 조용히 클래식 음악을 듣고 있는 사람 같아요.",
           "크게 드러내지 않아도 몸짓 하나하나에 품위가 배어 있어 자연스럽게 시선을 끄는 인물입니다.",
@@ -279,9 +279,9 @@
     id: 6,
     nameKo: "슬레이트 리버",
     nameEn: "Slate River",
-    volume: "50ml",
+    size: "50ml",
     tags: ["Cool", "Woody", "Dry"],
-    mainImage: "",
+    mainImage: process.env.PUBLIC_URL+'/images/perfumes/perfume6.png',
     scentImages: [
       { src: "", alt: "강가의 매끈한 회색 돌" },
       { src: "", alt: "깊고 어두운 강물" },
@@ -313,7 +313,7 @@
     ],
     scentStory: {
       title: "차분한 강가처럼 단정하고 침착한 사람",
-      paragraphs: [
+      story: [
         [
           "슬레이트 리버는 새벽 강가를 조용히 산책하며 생각을 정리하는 사람 같아요.",
           "감정에 쉽게 휩쓸리지 않고, 어떤 상황에서도 중심을 잃지 않는 든든함이 있습니다.",
@@ -334,9 +334,9 @@
     id: 7,
     nameKo: "블룸 헤이즈",
     nameEn: "Bloom Haze",
-    volume: "50ml",
+    size: "50ml",
     tags: ["Floral", "Sweet", "Romantic"],
-    mainImage: "",
+    mainImage: process.env.PUBLIC_URL+'/images/perfumes/perfume7.png',
     scentImages: [
       { src: "", alt: "분홍빛 꽃다발" },
       { src: "", alt: "안개 낀 봄날 정원" },
@@ -368,7 +368,7 @@
     ],
     scentStory: {
       title: "봄날 안개 속 꽃처럼 사랑스러운 사람",
-      paragraphs: [
+      story: [
         [
           "블룸 헤이즈는 봄비가 그친 뒤 안개 낀 정원에서 꽃을 고르는 사람 같아요.",
           "부드러운 표정과 다정한 말투에서 자연스럽게 설렘이 전해지는 인물입니다.",
@@ -389,9 +389,9 @@
     id: 8,
     nameKo: "아쿠아 루메",
     nameEn: "Aqua Lume",
-    volume: "50ml",
+    size: "50ml",
     tags: ["Romantic", "Soft", "Clean"],
-    mainImage: "",
+    mainImage: process.env.PUBLIC_URL+'/images/perfumes/perfume8.png',
     scentImages: [
       { src: "", alt: "빛이 반짝이는 투명한 물결" },
       { src: "", alt: "푸른 수면 위 물방울" },
@@ -423,7 +423,7 @@
     ],
     scentStory: {
       title: "투명한 물빛처럼 맑고 다정한 사람",
-      paragraphs: [
+      story: [
         [
           "아쿠아 루메는 달빛이 잔잔한 호수 위로 번지는 밤, 조용히 미소 짓는 사람 같아요.",
           "맑고 투명한 분위기 속에 은근한 설렘을 품고 있어 자꾸 눈길이 가는 인물입니다.",
@@ -444,9 +444,9 @@
     id: 9,
     nameKo: "레디언트",
     nameEn: "Radiant",
-    volume: "50ml",
+    size: "50ml",
     tags: ["Floral", "Citrus", "Soft"],
-    mainImage: "",
+    mainImage: process.env.PUBLIC_URL+'/images/perfumes/perfume9.png',
     scentImages: [
       { src: "", alt: "창가에 드는 아침 햇살" },
       { src: "", alt: "연분홍 꽃잎" },
@@ -478,7 +478,7 @@
     ],
     scentStory: {
       title: "환하게 빛나는 햇살 같은 사람",
-      paragraphs: [
+      story: [
         [
           "레디언트는 창문 가득 아침 햇살이 들어오는 순간처럼 주변을 환하게 만드는 사람 같아요.",
           "특별히 꾸미지 않아도 표정과 분위기에서 자연스러운 생기가 반짝이는 인물입니다.",
@@ -499,9 +499,9 @@
     id: 10,
     nameKo: "아쿠아 헤이즈",
     nameEn: "Aqua Haze",
-    volume: "50ml",
+    size: "50ml",
     tags: ["Citrus", "Fresh", "Clean"],
-    mainImage: "",
+    mainImage: process.env.PUBLIC_URL+'/images/perfumes/perfume10.png',
     scentImages: [
       { src: "", alt: "탁 트인 여름 바다" },
       { src: "", alt: "얼음 띄운 레모네이드" },
@@ -533,7 +533,7 @@
     ],
     scentStory: {
       title: "여름 바닷바람처럼 시원하고 자유로운 사람",
-      paragraphs: [
+      story: [
         [
           "아쿠아 헤이즈는 여름 아침 탁 트인 바다를 바라보며 크게 숨을 들이마시는 사람 같아요.",
           "가볍고 시원한 에너지로 주변의 답답함까지 날려주는 청량한 인물입니다.",
@@ -554,9 +554,9 @@
     id: 11,
     nameKo: "우드 티어리",
     nameEn: "Wood Theory",
-    volume: "50ml",
+    size: "50ml",
     tags: ["Woody", "Amber", "Warm"],
-    mainImage: "",
+    mainImage: process.env.PUBLIC_URL+'/images/perfumes/perfume11.png',
     scentImages: [
       { src: "", alt: "오래된 원목 책장" },
       { src: "", alt: "황금빛 호박·앰버 원석" },
@@ -588,7 +588,7 @@
     ],
     scentStory: {
       title: "오래된 서재의 온기를 가진 다정하고 깊이 있는 사람",
-      paragraphs: [
+      story: [
         [
           "우드 티어리는 따뜻한 조명이 켜진 서재에서 책장을 넘기며 차를 마시는 사람 같아요.",
           "조용하지만 공간 전체를 아늑하게 만드는 온기를 지니고 있는 인물입니다.",
@@ -609,9 +609,9 @@
     id: 12,
     nameKo: "엠버 오크",
     nameEn: "Amber Oak",
-    volume: "50ml",
+    size: "50ml",
     tags: ["Amber", "Smoky", "Musk"],
-    mainImage: "",
+    mainImage: process.env.PUBLIC_URL+'/images/perfumes/perfume12.png',
     scentImages: [
       { src: "", alt: "깊은 밤 타오르는 모닥불" },
       { src: "", alt: "오크통·짙은 원목" },
@@ -643,7 +643,7 @@
     ],
     scentStory: {
       title: "깊은 밤 모닥불 곁에 머무는 그윽한 사람",
-      paragraphs: [
+      story: [
         [
           "엠버 오크는 깊은 밤 모닥불 앞에서 조용히 불꽃을 바라보는 사람 같아요.",
           "많은 말을 하지 않아도 분위기에서 깊이와 여유가 전해지는 인물입니다.",

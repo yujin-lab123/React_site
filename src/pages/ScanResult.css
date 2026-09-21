@@ -66,6 +66,7 @@
   margin-bottom: 80px;
 }
 .scanResult .perfume_item{
+  width: 350px;
   border: 1px solid #999;
   box-sizing: border-box;
   background-color: var(--ivory-color);

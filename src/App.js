@@ -6,7 +6,7 @@ import Scan from './pages/Scan';
 import ScanResult from './pages/ScanResult';
 import Perfumes from './pages/Perfumes';
 import PerfumeDetail from './pages/PerfumeDetail';
-import Favorite from './pages/Favorite';
+import Archive from './pages/Archive';
 import NotFound from './pages/NotFound';
 
 import logo from './images/icon/logo_scentlab01.png';
@@ -24,7 +24,7 @@ function App() {
           <li><Link to="/">Home</Link></li>
           <li><Link to="/Scan">Scan</Link></li>
           <li><Link to="/Perfumes">Perfumes</Link></li>
-          <li><Link to="/favorite">Archive</Link></li>
+          <li><Link to="/archive">Archive</Link></li>
         </ul>
 
         <div className="logo">
@@ -32,8 +32,8 @@ function App() {
         </div>
 
         <div className="icon_gnb">
-          <Link to="/favorite"><i className="fa-regular fa-heart"></i></Link>
-          <Link to="/favorite"><i className="fa-regular fa-user"></i></Link>
+          <Link to="/archive"><i className="fa-regular fa-heart"></i></Link>
+          <Link to="/archive"><i className="fa-regular fa-user"></i></Link>
         </div>
 
         </div>
@@ -47,30 +47,15 @@ function App() {
 
           <Route path="/scan" element={<Scan />} />
 
-          <Route
-            path="/scan/result"
-            element={<ScanResult />}
-          />
+          <Route path="/scan/result" element={<ScanResult />} />
 
-          <Route
-            path="/perfumes"
-            element={<Perfumes />}
-          />
+          <Route path="/perfumes" element={<Perfumes />} />
 
-          <Route
-            path="/perfume/:id"
-            element={<PerfumeDetail />}
-          />
+          <Route path="/perfume/:id" element={<PerfumeDetail />} />
 
-          <Route
-            path="/favorite"
-            element={<Favorite />}
-          />
+          <Route path="/archive" element={<Archive />} />
 
-          <Route
-            path="*"
-            element={<NotFound />}
-          />
+          <Route path="*" element={<NotFound />} />
         </Routes>
       </main>
 
@@ -92,7 +77,7 @@ function App() {
             <li><Link to="/">Home</Link></li>
             <li><Link to="/Scan">Scan</Link></li>
             <li><Link to="/Perfumes">Perfumes</Link></li>
-            <li><Link to="/favorite">Archive</Link></li>
+            <li><Link to="/archive">Archive</Link></li>
           </ul>
         </div>
       </footer>
