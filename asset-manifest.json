@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/React_site/static/css/main.b62a2810.css",
-    "main.js": "/React_site/static/js/main.237fee5b.js",
+    "main.js": "/React_site/static/js/main.a44cf765.js",
     "static/js/453.ed4f2b1c.chunk.js": "/React_site/static/js/453.ed4f2b1c.chunk.js",
     "static/media/MaruBuri-Bold.ttf": "/React_site/static/media/MaruBuri-Bold.26c2b20c37a806f884b9.ttf",
     "static/media/MaruBuri-SemiBold.ttf": "/React_site/static/media/MaruBuri-SemiBold.10c94f2d31b44dd73351.ttf",
@@ -19,11 +19,11 @@
     "static/media/reload.png": "/React_site/static/media/reload.51a7e5410b098cd4c7a3.png",
     "index.html": "/React_site/index.html",
     "main.b62a2810.css.map": "/React_site/static/css/main.b62a2810.css.map",
-    "main.237fee5b.js.map": "/React_site/static/js/main.237fee5b.js.map",
+    "main.a44cf765.js.map": "/React_site/static/js/main.a44cf765.js.map",
     "453.ed4f2b1c.chunk.js.map": "/React_site/static/js/453.ed4f2b1c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.b62a2810.css",
-    "static/js/main.237fee5b.js"
+    "static/js/main.a44cf765.js"
   ]
 }
