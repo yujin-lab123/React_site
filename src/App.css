@@ -1,38 +1,97 @@
-.App {
-  text-align: center;
+/*-----------------common--------------------*/
+
+:root{
+  --black-color: #161616;
+  --main-pink: #F8D8DD;
+  --point-pink: #B85564;
+  --ivory-color: #FFFDFB;
+  --deep-ivory: #F1ECE7;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+main{
+  padding-top: 60px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
+/*-----------------common--------------------*/
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+header{
+  width: 100vw; height: 60px;
+  background-color: rgba(255, 255, 255, 0.8);
+  position: fixed;
+  box-shadow: 0px 23px 8px -18px rgba(15, 23, 42, 0.05);
+  z-index: 100;
+}
+header:hover{
+  background-color: white;
+  transition: 0.3s;
+}
+.header_wrap{
+  width: 1440px; height: 60px;
+  margin: 0 auto;
   display: flex;
-  flex-direction: column;
+  justify-content: space-between;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  position: relative;
 }
 
-.App-link {
-  color: #61dafb;
+.header_gnb{
+  display: flex;
+  gap: 30px;
+  color: var(--black-color);
+}
+.header_gnb li:hover{
+  color: var(--point-pink);
+  transition: 0.3s;
+}
+.icon_gnb{
+  display: flex;
+  gap: 30px;
+  font-weight: 300;
+  color: var(--black-color);
+}
+.logo{
+  width: 100px; height: auto;
+  position: absolute;
+  top: 10px;
+  left: 50%;
+  transform: translateX(-50%);
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+/*-----------------/헤더 css-------------------*/
+
+footer{
+  margin-bottom: 100px;
 }
+.footer_content{
+  width: 1440px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+footer .line{
+  width: 100%; height: 0.5px;
+  background-color: #aaa;
+  margin-bottom: 50px;
+}
+.left_footer img{
+  width: 150px; height: auto;
+}
+.left_footer .noti{
+  font-size: 14px;
+  color: #666;
+  margin-top: 20px;
+}
+.footer_gnb{
+  display: flex;
+  gap: 60px;
+  font-size: 18px;
+}
+.footer_gnb li:hover{
+  color: var(--point-pink);
+  transition: 0.3s;
+}
+
+
+
+/*-----------------/푸터 css-------------------*/
+

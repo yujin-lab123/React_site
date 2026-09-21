@@ -1,0 +1,122 @@
+.perfumes_page{
+  padding-top: 60px;
+  width: 1440px;
+  margin: 0 auto;
+}
+
+.perfumes_page .bread_nav{
+  width: 1440px;
+  margin: 0 auto;
+  margin-bottom: 60px;
+  display: flex;
+  align-items: center;
+  font-size: 12px;
+  gap: 15px;
+  color: #666;
+}
+.perfumes_page .bread_nav .fa-chevron-right{
+  color: #999;
+}
+.perfumes_page .bread_nav .home{cursor: pointer;}
+.perfumes_page .bread_nav .current{
+  font-weight: 600;
+  color: var(--black-color);
+  cursor: pointer;
+}
+
+/*---------------/scan_bread----------------*/
+
+.perfumes_page .perfumesPage_text{
+  text-align: center;
+  margin-bottom: 80px;
+}
+.perfumes_page .perfumesPage_text .perfumesPage_title{
+  font-size: 2.25rem;
+  font-weight: 600;
+}
+.perfumes_page .perfumesPage_text .perfumesPage_subtitle{
+  font-size: 14px;
+  color: #666;
+}
+
+.perfumes_page select{
+  border: none;
+  display: block;
+  margin-left: auto;
+  margin-bottom: 30px;
+}
+
+.perfumsList_container{
+  width: 1440px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  margin-bottom: 100px;
+}
+
+.perfumsList_container .perfume_item{
+  width: 345px;
+  flex-shrink: 0;
+  margin-bottom: 50px;
+}
+.perfumsList_container .perfume_img{
+  width: 100%; height: auto;
+  border: 0.5px solid #aaa;
+  box-sizing: border-box;
+  background-color: var(--ivory-color);
+  position: relative;
+  overflow: hidden;
+}
+.perfumsList_container .perfume_img:hover img{
+  transform: scale(1.08);
+}
+.perfumsList_container .perfume_img img{
+  width: 100%; height: 100%;
+  transition: 0.3s;
+}
+.perfumsList_container .perfume_img .fa-heart{
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  color: #aaa;
+  font-size: 24px;
+  cursor: pointer;
+}
+.perfumsList_container .perfume_img .fa-heart:hover{
+  color: var(--point-pink);
+  transition: 0.3s;
+}
+
+.perfumsList_container .item_text{
+  text-align: center;
+}
+.item_text .item_name{
+  margin-top: 26px;
+  font-size: 18px;
+  font-weight: 600;
+}
+.item_text .item_size{
+  font-size: 12px;
+  margin-top: 5px;
+}
+.perfumsList_container .tags{
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  color: #666;
+  font-size: 14px;
+  margin-top: 12px;
+}
+
+
+/*----데코레이션 백그라운드 ----*/
+.perfumes_page .perfumesPage_text{position: relative;}
+.perfumes_page .perfumesPage_text .pinkBg{
+  width: 550px; height: auto;
+  position: absolute;
+  top: -170px;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: -1;
+}

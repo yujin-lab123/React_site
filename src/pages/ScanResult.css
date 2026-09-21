@@ -1,0 +1,157 @@
+.scanResult{
+  padding-top: 60px;
+}
+
+.scanResult .bread_nav{
+  width: 1440px;
+  margin: 0 auto;
+  margin-bottom: 60px;
+  display: flex;
+  align-items: center;
+  font-size: 12px;
+  gap: 15px;
+  color: #666;
+}
+.scanResult .bread_nav .fa-chevron-right{
+  color: #999;
+}
+.scanResult .bread_nav .home{cursor: pointer;}
+.scanResult .bread_nav .current{
+  font-weight: 600;
+  color: var(--black-color);
+  cursor: pointer;
+}
+
+/*---------------/scan_bread----------------*/
+
+.scanResult .report_container{
+  width: 1440px; 
+  margin: 0 auto;
+}
+
+.scanResult .result_title{
+  font-size: 2.75rem;
+  font-weight: 600;
+  text-align: center;
+  margin: 80px 0;
+}
+
+.scanResult .result_text{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-size: 20px;
+  line-height: 35px;
+}
+.scanResult .result_text .result_point{
+  display: inline-block;
+  width: 90px;
+  color: var(--point-pink);
+  font-weight: 600;
+}
+.scanResult .result_text p:last-child{
+  font-size: 16px;
+  margin-top: 15px;
+}
+
+.scanResult .result_perfumeList{
+  width: 1070px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 100px;
+  margin-bottom: 80px;
+}
+.scanResult .perfume_item{
+  border: 1px solid #999;
+  box-sizing: border-box;
+  background-color: var(--ivory-color);
+  padding: 20px 0;
+}
+.scanResult .perfume_img:hover img{
+  transform: scale(1.08);
+}
+.scanResult .perfume_img img{
+  width: 100%; height: 100%;
+  transition: 0.3s;
+}
+.scanResult .item_txt{
+  text-align: center;
+}
+.perfume_img{position: relative;}
+.scanResult .fa-heart{
+  position: absolute;
+  top: 0;
+  right: 15px;
+  color: #aaa;
+  font-size: 24px;
+  cursor: pointer;
+}
+.scanResult .fa-heart:hover{
+  color: var(--point-pink);
+  transition: 0.3s;
+}
+.item_txt .item_name{
+  margin-top: 26px;
+  font-size: 18px;
+  font-weight: 600;
+}
+.item_txt .item_size{
+  font-size: 12px;
+  margin-top: 5px;
+}
+.item_txt .item_tags{
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  color: #666;
+  font-size: 14px;
+  margin-top: 12px;
+}
+
+.scanResult .icon_box{
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  margin-bottom: 100px;
+}
+.scanResult .icon_box div{
+  cursor: pointer;
+}
+.scanResult .icon_box div img{
+  width: 40px; height: 40px;
+  margin-bottom: 4px;
+}
+.scanResult .icon_box div p{
+  font-size: 12px;
+  color: #666;
+}
+
+
+/*----데코레이션 백그라운드 ----*/
+.report_container{position: relative;}
+.scanResult .pinkBg{
+  width: 550px; height: auto;
+  position: absolute;
+  top: 10%;
+  right: 0;
+  z-index: -1;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

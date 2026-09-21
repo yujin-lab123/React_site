@@ -1,0 +1,385 @@
+
+/*-----------------common-----------------*/
+
+.title_box{
+  margin-top: 120px;
+  margin-bottom: 80px;
+}
+.title_box .mainTitle{
+  font-size: 2.5rem;
+  font-weight: 600;
+}
+.title_box .subTitle{
+  color: #666;
+}
+
+/*-----------------common-----------------*/
+
+
+/*--------------메인베너-----------------*/
+main{
+  padding-top: 30px;
+}
+.hero{
+  width: 100%; height: auto;
+  position: relative;
+}
+.hero_description{
+  position: absolute;
+  top: 50%;
+  left: 30%;
+  transform: translateY(-50%);
+  font-size: 20px;
+  color: var(--black-color);
+}
+.hero_description span {
+  color: var(--point-pink);
+  font-weight: 600;
+}
+
+/*--------------인트로-----------------*/
+
+.formula_intro{
+  margin-top: 150px;
+  height: 380px;
+}
+.formula_title{
+  position: relative;
+}
+.formula_title .title_main{
+  position: relative;
+  text-align: center;
+  font-size: 4rem;
+  color: var(--black-color);
+  z-index: 2;
+}
+.formula_title .title_shadow{
+  position: absolute;
+  bottom: -25px;
+  left: 50%;
+  transform: translateX(-50%) scaleY(-1);
+  color: var(--main-pink);
+  font-size: 3.5rem;
+  opacity: 0.65;
+  z-index: 1;
+}
+.sub_title{
+  position: absolute;
+  bottom: -40px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.formula_intro{position: relative;}
+.formula_intro .scan_btn{
+  border: 1px solid var(--black-color);
+  box-sizing: border-box;
+  padding: 10px 20px;
+  position: absolute;
+  bottom: 40%; left: 50%;
+  transform: translateX(-50%);
+}
+.formula_intro .scan_btn:hover{
+  background-color: var(--black-color);
+  color: white;
+  transition: 0.3s;
+}
+
+/*-------------/인트로------------------*/
+
+
+
+.intro_info{
+  height: 850px;
+  position: relative;
+}
+.bgTxt{
+  width: 1000px; height: auto;
+  position: absolute;
+  top: -400px;
+  right: 0;
+  background-size: cover;
+  z-index: -1;
+}
+.intro_info img{
+  position: absolute;
+}
+.introImg01{
+  width: 500px; height: auto;
+  left: 10%;
+}
+.introImg02{
+  width: 400px; height: auto;
+  right: 15%;
+}
+.introImg03{
+  width: 150px; height: auto;
+  top: 150px;
+  right: 32%;
+}
+
+.intro_txt{
+  position: absolute;
+  bottom: 230px;
+  right: 25%;
+  padding: 40px 50px;
+  background-color: var(--ivory-color);
+}
+.intro_txt01{
+  font-size: 18px;
+  font-weight: 600;
+}
+.intro_txt02{
+  font-size: 16px;
+  margin-top: 20px;
+}
+
+/*-------------/인트로 소개------------------*/
+
+.best_perfumes{
+  margin-top: 50px;
+  margin-bottom: 100px;
+  z-index: 1;
+}
+
+.best_perfumes .line{
+  width: 100%; height: 0.5px;
+  background-color: #aaa;
+}
+
+/*-- title_box --*/
+
+.mainTitle_box{
+  width: 1440px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+/* .mainTitle_box .slideBtn{
+  padding: 0 50px;
+} */
+.mainTitle_box .slideBtn button{
+  margin-left: 30px;
+}
+
+.perfumes_container{
+  height: 500px;
+  background-color: #eee;
+}
+
+/*-- perfume list --*/
+
+.perfumes_list{
+  width: 1440px;
+  margin: 0 auto;
+  display: flex;
+  gap: 20px;
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+}
+
+.perfumes_list .perfume_item{
+  width: 345px;
+  flex-shrink: 0;
+}
+.perfumes_list .perfume_img{
+  width: 100%; height: auto;
+  border: 0.5px solid #aaa;
+  box-sizing: border-box;
+  background-color: var(--ivory-color);
+  position: relative;
+}
+.perfumes_list .perfume_img:hover img{
+  transform: scale(1.08);
+}
+.perfumes_list .perfume_img img{
+  width: 100%; height: 100%;
+  transition: 0.3s;
+}
+.perfumes_list .perfume_img .fa-heart{
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  color: #aaa;
+  font-size: 24px;
+  cursor: pointer;
+}
+.perfumes_list .perfume_img .fa-heart:hover{
+  color: var(--point-pink);
+  transition: 0.3s;
+}
+
+.perfumes_list .item_text{
+  text-align: center;
+}
+.item_text .item_name{
+  margin-top: 26px;
+  font-size: 18px;
+  font-weight: 600;
+}
+.item_text .item_size{
+  font-size: 12px;
+  margin-top: 5px;
+}
+.perfumes_list .tags{
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  color: #666;
+  font-size: 14px;
+  margin-top: 12px;
+}
+
+/*--------------/best_perfumes-----------------*/
+
+.scent_story .mainTitle_box .more{
+  font-size: 14px;
+  color: #666;
+}
+
+.scent_story .story_list{
+  width: 1440px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+.story_list .story_box{
+  width: 262px; height: auto;
+}
+.story_box .story_img{
+  width: 272px; height: auto;
+  border: 0.5px solid #aaa;
+  box-sizing: border-box;
+}
+.story_box .story_text{
+  text-align: center;
+}
+.story_text .story_name{
+  margin-top: 26px;
+  font-size: 18px;
+  font-weight: 600;
+}
+.story_text .story_tag{
+  font-size: 14px;
+  margin: 5px 0;
+  color: #999;
+}
+.story_text .story_desc{
+  height: 120px;
+  font-size: 14px;
+  margin-top: 10px;
+}
+
+.story_box .story_text .common_btn{
+  margin-bottom: 50px;
+  padding: 5px 10px;
+  border: 0.5px solid var(--black-color);
+}
+.story_box .story_text .common_btn:hover{
+  background-color: var(--black-color);
+  color: white;
+  transition: 0.3s;
+} 
+
+
+/*------------/scent_story---------------*/
+
+.deco_txt{
+  text-align: center;
+  font-size: 60px;
+  margin-top: 120px;
+  margin-bottom: 200px;
+  color: var(--main-pink);
+}
+.deco_txt .deco_black{
+  color: var(--black-color);
+}
+
+/*---------------last_contetn---------------*/
+
+.last_box{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.lastbg01{
+  grid-column: 1 / 3;
+  width: 100%; height: auto;
+  object-fit: cover;
+}
+.lastbg02{
+  grid-column: 1 / 2;
+  width: 100%; height: auto;
+  object-fit: cover;
+}
+.lastbg03{
+  grid-column: 2 / 3;
+  width: 100%; height: 100%;
+  background-color: var(--point-pink);
+}
+
+.lastbg03 .lastbg_text{
+  width: 100%; height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+.lastbg03 .lastbg_text p:first-child{
+  font-size: 24px;
+  margin-bottom: 10px;
+  font-weight: 600;
+}
+.lastbg03 .lastbg_text p:nth-child(2){
+  font-size: 14px;
+  margin-bottom: 50px;
+  text-align: center;
+  font-weight: 300;
+}
+.lastbg03 .lastbg_text button{
+  color: white;
+  margin-bottom: 25px;
+  border: 0.5px solid white;
+  box-sizing: border-box;
+  padding: 10px 20px;
+}
+.lastbg03 .lastbg_text button:hover{
+  background-color: white;
+  color: var(--point-pink);
+  transition: 0.3s;
+}
+
+/*---------------/last_content---------------*/
+
+body{position: relative;}
+.top_btn{
+  position: fixed;
+  bottom: 10%; right: 20px;
+  width: 70px; height: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid var(--black-color);
+  border-radius: 50%;
+  background-color: rgba(255, 255, 255, 0.5);
+  font-size: 18px;
+  text-align: center;
+  cursor: pointer;
+}
+.top_btn:hover{
+  font-size: 19px;
+  transition: 0.3s;
+}
+
+
+
+
+
+
+
+
+
+
+

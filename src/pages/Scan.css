@@ -1,0 +1,113 @@
+.scanPage{
+  padding-top: 60px;
+}
+
+.scanPage .bread_nav{
+  width: 1440px;
+  margin: 0 auto;
+  margin-bottom: 60px;
+  display: flex;
+  align-items: center;
+  font-size: 12px;
+  gap: 15px;
+  color: #666;
+}
+.scanPage .bread_nav .fa-chevron-right{
+  color: #999;
+}
+.scanPage .bread_nav .home{cursor: pointer;}
+.scanPage .bread_nav .current{
+  font-weight: 600;
+  color: var(--black-color);
+  cursor: pointer;
+}
+
+/*---------------/scan_bread----------------*/
+
+.scan_container{
+  width: 1440px;
+  margin: 0 auto;
+  text-align: center;
+  position: relative;
+}
+
+.scan_container .step{
+  font-size: 12px;
+  color: #666;
+}
+.scan_container .scan_category{
+  margin-top: 50px;
+}
+.scan_container .scan_question{
+  font-size: 24px;
+  font-weight: 600;
+  margin-top: 15px;
+}
+.scan_container .scan_question .point_text{
+  color: var(--point-pink);
+}
+
+.scan_container .scan_options{
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 50px 0;
+}
+
+.scan_container .scan_options button.active{
+  background-color: var(--black-color);
+  color: white;
+}
+
+.scan_container .scan_options button{
+  width: 200px; height: 50px;
+  border: 1px solid var(--black-color);
+  box-sizing: border-box;
+  margin: 15px 0;
+  font-size: 18px;
+}
+.scan_container .scan_options button:hover{
+  background-color: var(--black-color);
+  color: white;
+  transition: 0.3s;
+}
+
+.scan_container .scan_bottomBtn{
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  margin-bottom: 130px;
+}
+.scan_bottomBtn .scan_complete button,
+.scan_bottomBtn .scan_complete{
+  width: 200px; height: 50px;
+  border: 1px solid var(--black-color);
+  margin: 15px 0;
+  font-size: 18px;
+  font-family: 'MaruBuri', serif;
+}
+.scan_bottomBtn .btn_space{
+  width: 39px;
+}
+.scanning{
+  width: 200px; height: 50px;
+  text-align: center;
+  line-height: 50px;
+  border: 1px solid #ccc;
+  color: #ccc;
+  margin: 15px 0;
+  font-size: 18px;
+}
+
+
+/*----데코레이션 백그라운드 ----*/
+.scan_container .pinkBg{
+  width: 550px; height: auto;
+  position: absolute;
+  top: -120px;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: -1;
+}
+

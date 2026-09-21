@@ -1,13 +1,74 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+  /* font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+    sans-serif; */
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  font-family: 'MaruBuri', serif;
+  font-size: 16px;
+  font-weight: 400;
 }
 
-code {
+/* code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+} */
+
+/*--------------common--------------------*/
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+ul, li {
+  list-style: none;
+}
+
+img {
+  display: block;
+  width: 100%;
+  border: none;
+}
+
+button{
+  border: none;
+  background: none;
+  padding: 0;
+  cursor: pointer;
+}
+
+@font-face {
+  font-family: 'MaruBuri';
+  src: url(./fonts/MaruBuri-Light.ttf) format('truetype');
+  font-weight: 300;
+}
+
+@font-face {
+  font-family: 'MaruBuri';
+  src: url('./fonts/MaruBuri-Regular.ttf') format('truetype');
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: 'MaruBuri';
+  src: url('./fonts/MaruBuri-SemiBold.ttf') format('truetype');
+  font-weight: 600;
+}
+
+@font-face {
+  font-family: 'MaruBuri';
+  src: url('./fonts/MaruBuri-Bold.ttf') format('truetype');
+  font-weight: 700;
+}
+
+/*--------------common--------------------*/
+
+
