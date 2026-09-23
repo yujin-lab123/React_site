@@ -8,7 +8,7 @@
     tags: ["Clean", "Musk", "Soft"],
     mainImage: process.env.PUBLIC_URL+'/images/perfumes/perfume1.png',
     scentImages: [
-      { src:  process.env.PUBLIC_URL+'/images/perfume_detail/id01_01.jpg', alt: "새하얀 비누" },
+      { src: process.env.PUBLIC_URL+'/images/perfume_detail/id01_01.jpg', alt: "새하얀 비누" },
       { src: process.env.PUBLIC_URL+'/images/perfume_detail/id01_02.jpg', alt: "부드러운 목화솜" },
       { src: process.env.PUBLIC_URL+'/images/perfume_detail/id01_03.jpg', alt: "얇은 베일" },
       { src: process.env.PUBLIC_URL+'/images/perfume_detail/id01_04.jpg', alt: "깨끗한 구름" },
@@ -63,10 +63,10 @@
     tags: ["Citrus", "Fresh", "Floral"],
     mainImage: process.env.PUBLIC_URL+'/images/perfumes/perfume2.png',
     scentImages: [
-      { src: "", alt: "반으로 자른 오렌지·귤" },
-      { src: "", alt: "햇살이 비치는 물방울" },
-      { src: "", alt: "복숭아빛 꽃잎" },
-      { src: "", alt: "부드러운 벨벳 천" },
+      { src: process.env.PUBLIC_URL+'/images/perfume_detail/id02_01.jpg', alt: "반으로 자른 오렌지·귤" },
+      { src: process.env.PUBLIC_URL+'/images/perfume_detail/id02_02.jpg', alt: "햇살이 비치는 물방울" },
+      { src: process.env.PUBLIC_URL+'/images/perfume_detail/id02_03.jpg', alt: "복숭아빛 꽃잎" },
+      { src: process.env.PUBLIC_URL+'/images/perfume_detail/id02_04.jpg', alt: "부드러운 벨벳 천" },
     ],
     scentInfo: [
       {
@@ -118,10 +118,10 @@
     tags: ["Clean", "Fresh", "Woody"],
     mainImage: process.env.PUBLIC_URL+'/images/perfumes/perfume3.png',
     scentImages: [
-      { src: "", alt: "세이지 허브 잎" },
-      { src: "", alt: "안개 낀 초록 숲" },
-      { src: "", alt: "잔잔한 호숫가" },
-      { src: "", alt: "나무 결·연한 원목" },
+      { src: process.env.PUBLIC_URL+'/images/perfume_detail/id03_01.jpg', alt: "세이지 허브 잎" },
+      { src: process.env.PUBLIC_URL+'/images/perfume_detail/id03_02.jpg', alt: "안개 낀 초록 숲" },
+      { src: process.env.PUBLIC_URL+'/images/perfume_detail/id03_03.jpg', alt: "잔잔한 호숫가" },
+      { src: process.env.PUBLIC_URL+'/images/perfume_detail/id03_04.jpg', alt: "나무 결·연한 원목" },
     ],
     scentInfo: [
       {
@@ -173,10 +173,10 @@
     tags: ["Dry", "Smoky", "Woody"],
     mainImage: process.env.PUBLIC_URL+'/images/perfumes/perfume4.png',
     scentImages: [
-      { src: "", alt: "차가운 금속 질감" },
-      { src: "", alt: "타오르는 연기" },
-      { src: "", alt: "베티버 뿌리·마른 풀" },
-      { src: "", alt: "어두운 나무 표면" },
+      { src: process.env.PUBLIC_URL+'/images/perfume_detail/id04_01.jpg', alt: "차가운 금속 질감" },
+      { src: process.env.PUBLIC_URL+'/images/perfume_detail/id04_02.jpg', alt: "타오르는 연기" },
+      { src: process.env.PUBLIC_URL+'/images/perfume_detail/id04_03.jpg', alt: "베티버 뿌리·마른 풀" },
+      { src: process.env.PUBLIC_URL+'/images/perfume_detail/id04_04.jpg', alt: "어두운 나무 표면" },
     ],
     scentInfo: [
       {
@@ -228,10 +228,10 @@
     tags: ["Floral", "Elegant", "Soft"],
     mainImage: process.env.PUBLIC_URL+'/images/perfumes/perfume5.png',
     scentImages: [
-      { src: "", alt: "연보라색 아이리스 꽃" },
-      { src: "", alt: "파우더 가루·화장솜" },
-      { src: "", alt: "실크 스카프" },
-      { src: "", alt: "라벤더빛 노을 하늘" },
+      { src: process.env.PUBLIC_URL+'/images/perfume_detail/id05_01.jpg', alt: "연보라색 아이리스 꽃" },
+      { src: process.env.PUBLIC_URL+'/images/perfume_detail/id05_02.jpg', alt: "파우더 가루·화장솜" },
+      { src: process.env.PUBLIC_URL+'/images/perfume_detail/id05_03.jpg', alt: "실크 스카프" },
+      { src: process.env.PUBLIC_URL+'/images/perfume_detail/id05_04.jpg', alt: "라벤더빛 노을 하늘" },
     ],
     scentInfo: [
       {
@@ -283,10 +283,10 @@
     tags: ["Cool", "Woody", "Dry"],
     mainImage: process.env.PUBLIC_URL+'/images/perfumes/perfume6.png',
     scentImages: [
-      { src: "", alt: "강가의 매끈한 회색 돌" },
-      { src: "", alt: "깊고 어두운 강물" },
-      { src: "", alt: "젖은 나무 껍질" },
-      { src: "", alt: "푸른 새벽 안개" },
+      { src: process.env.PUBLIC_URL+'/images/perfume_detail/id06_01.jpg', alt: "강가의 매끈한 회색 돌" },
+      { src: process.env.PUBLIC_URL+'/images/perfume_detail/id06_02.jpg', alt: "깊고 어두운 강물" },
+      { src: process.env.PUBLIC_URL+'/images/perfume_detail/id06_03.jpg', alt: "젖은 나무 껍질" },
+      { src: process.env.PUBLIC_URL+'/images/perfume_detail/id06_04.jpg', alt: "푸른 새벽 안개" },
     ],
     scentInfo: [
       {
@@ -338,10 +338,10 @@
     tags: ["Floral", "Sweet", "Romantic"],
     mainImage: process.env.PUBLIC_URL+'/images/perfumes/perfume7.png',
     scentImages: [
-      { src: "", alt: "분홍빛 꽃다발" },
-      { src: "", alt: "안개 낀 봄날 정원" },
-      { src: "", alt: "핑크 리본·새틴" },
-      { src: "", alt: "설탕 입힌 마카롱·디저트" },
+      { src: process.env.PUBLIC_URL+'/images/perfume_detail/id07_01.jpg', alt: "분홍빛 꽃다발" },
+      { src: process.env.PUBLIC_URL+'/images/perfume_detail/id07_02.jpg', alt: "안개 낀 봄날 정원" },
+      { src: process.env.PUBLIC_URL+'/images/perfume_detail/id07_03.jpg', alt: "핑크 리본·새틴" },
+      { src: process.env.PUBLIC_URL+'/images/perfume_detail/id07_04.jpg', alt: "설탕 입힌 마카롱·디저트" },
     ],
     scentInfo: [
       {
@@ -393,10 +393,10 @@
     tags: ["Romantic", "Soft", "Clean"],
     mainImage: process.env.PUBLIC_URL+'/images/perfumes/perfume8.png',
     scentImages: [
-      { src: "", alt: "빛이 반짝이는 투명한 물결" },
-      { src: "", alt: "푸른 수면 위 물방울" },
-      { src: "", alt: "달빛이 비치는 밤바다" },
-      { src: "", alt: "하늘색 실크·시폰" },
+      { src: process.env.PUBLIC_URL+'/images/perfume_detail/id08_01.jpg', alt: "빛이 반짝이는 투명한 물결" },
+      { src: process.env.PUBLIC_URL+'/images/perfume_detail/id08_02.jpg', alt: "푸른 수면 위 물방울" },
+      { src: process.env.PUBLIC_URL+'/images/perfume_detail/id08_03.jpg', alt: "달빛이 비치는 밤바다" },
+      { src: process.env.PUBLIC_URL+'/images/perfume_detail/id08_04.jpg', alt: "하늘색 실크·시폰" },
     ],
     scentInfo: [
       {
@@ -448,10 +448,10 @@
     tags: ["Floral", "Citrus", "Soft"],
     mainImage: process.env.PUBLIC_URL+'/images/perfumes/perfume9.png',
     scentImages: [
-      { src: "", alt: "창가에 드는 아침 햇살" },
-      { src: "", alt: "연분홍 꽃잎" },
-      { src: "", alt: "얇게 썬 레몬·자몽" },
-      { src: "", alt: "반짝이는 은은한 빛망울" },
+      { src: process.env.PUBLIC_URL+'/images/perfume_detail/id09_01.jpg', alt: "창가에 드는 아침 햇살" },
+      { src: process.env.PUBLIC_URL+'/images/perfume_detail/id09_02.jpg', alt: "연분홍 꽃잎" },
+      { src: process.env.PUBLIC_URL+'/images/perfume_detail/id09_03.jpg', alt: "얇게 썬 레몬·자몽" },
+      { src: process.env.PUBLIC_URL+'/images/perfume_detail/id09_04.jpg', alt: "반짝이는 은은한 빛망울" },
     ],
     scentInfo: [
       {
@@ -503,10 +503,10 @@
     tags: ["Citrus", "Fresh", "Clean"],
     mainImage: process.env.PUBLIC_URL+'/images/perfumes/perfume10.png',
     scentImages: [
-      { src: "", alt: "탁 트인 여름 바다" },
-      { src: "", alt: "얼음 띄운 레모네이드" },
-      { src: "", alt: "파도에 부서지는 물보라" },
-      { src: "", alt: "푸른 하늘과 수평선" },
+      { src: process.env.PUBLIC_URL+'/images/perfume_detail/id10_01.jpg', alt: "탁 트인 여름 바다" },
+      { src: process.env.PUBLIC_URL+'/images/perfume_detail/id10_02.jpg', alt: "얼음 띄운 레모네이드" },
+      { src: process.env.PUBLIC_URL+'/images/perfume_detail/id10_03.jpg', alt: "파도에 부서지는 물보라" },
+      { src: process.env.PUBLIC_URL+'/images/perfume_detail/id10_04.jpg', alt: "푸른 하늘과 수평선" },
     ],
     scentInfo: [
       {
@@ -558,10 +558,10 @@
     tags: ["Woody", "Amber", "Warm"],
     mainImage: process.env.PUBLIC_URL+'/images/perfumes/perfume11.png',
     scentImages: [
-      { src: "", alt: "오래된 원목 책장" },
-      { src: "", alt: "황금빛 호박·앰버 원석" },
-      { src: "", alt: "따뜻한 조명이 켜진 서재" },
-      { src: "", alt: "김이 오르는 따뜻한 차" },
+      { src: process.env.PUBLIC_URL+'/images/perfume_detail/id11_01.jpg', alt: "오래된 원목" },
+      { src: process.env.PUBLIC_URL+'/images/perfume_detail/id11_02.jpg', alt: "황금빛 호박·앰버 원석" },
+      { src: process.env.PUBLIC_URL+'/images/perfume_detail/id11_03.jpg', alt: "따뜻한 조명이 켜진 서재" },
+      { src: process.env.PUBLIC_URL+'/images/perfume_detail/id11_04.jpg', alt: "김이 오르는 따뜻한 차" },
     ],
     scentInfo: [
       {
@@ -613,10 +613,10 @@
     tags: ["Amber", "Smoky", "Musk"],
     mainImage: process.env.PUBLIC_URL+'/images/perfumes/perfume12.png',
     scentImages: [
-      { src: "", alt: "깊은 밤 타오르는 모닥불" },
-      { src: "", alt: "오크통·짙은 원목" },
-      { src: "", alt: "짙은 호박색 위스키·앰버" },
-      { src: "", alt: "어두운 가죽 질감" },
+      { src: process.env.PUBLIC_URL+'/images/perfume_detail/id12_01.jpg', alt: "깊은 밤 타오르는 모닥불" },
+      { src: process.env.PUBLIC_URL+'/images/perfume_detail/id12_02.jpg', alt: "오크통·짙은 원목" },
+      { src: process.env.PUBLIC_URL+'/images/perfume_detail/id12_03.jpg', alt: "짙은 호박색 위스키·앰버" },
+      { src: process.env.PUBLIC_URL+'/images/perfume_detail/id12_04.jpg', alt: "어두운 가죽 질감" },
     ],
     scentInfo: [
       {

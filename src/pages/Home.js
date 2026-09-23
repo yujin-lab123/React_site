@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import './Home.css';
 import heroImg from '../images/hero_banner.jpg';
 import bgTxt from '../images/bg_txt.png';
@@ -15,6 +15,10 @@ import { useRef } from 'react';
 import perfumeData from '../data/perfumeData';
 import scentStoryData from '../data/scentstoryData';
 import Button from '../components/Button';
+import ArchivePopup from '../components/ArchivePopup';
+import FavoriteButton from '../components/FavoriteButton';
+import { addFavorite } from './store';
+import { useSelector ,useDispatch } from 'react-redux';
 
 
 function Home() {
@@ -36,6 +40,10 @@ function Home() {
   };
 
   const navigate = useNavigate();
+  const dispatch = useDispatch();
+
+  const favorites = useSelector((state)=> state.favorite);
+  const [archivePopup, setArchivePopup]=useState(false);
 
   return (
     <div>
@@ -97,11 +105,25 @@ function Home() {
           <div className="perfumes_list" ref={listRef}>
 
             {perfumeData.slice(0, 8).map((perfume) => (
-              <Link to={`/perfume/${perfume.id}`}>
-              <div className="perfume_item" key={perfume.id}>
+              <Link to={`/perfume/${perfume.id}`} key={perfume.id}>
+              <div className="perfume_item">
                 <div className="perfume_img">
                   <img src={perfume.image} alt={perfume.name} />
-                  <i className="fa-regular fa-heart"></i>
+                  <FavoriteButton
+                    perfume={perfume}
+                    isFavorite={
+                      favorites.some((item)=>item.id === perfume.id)
+                    }
+                    onFavorite={(perfume)=>{
+                      dispatch(addFavorite(perfume));
+                      setArchivePopup(true);
+                    }}
+                  />
+                  {/* <i className="fa-regular fa-heart" onClick={(e)=>{
+                    e.preventDefault();
+                    e.stopPropagation();
+                    dispatch(addFavorite(perfume));
+                    setArchivePopup(true);}}></i> */}
                 </div>
 
                 <div className="item_text">
@@ -193,6 +215,11 @@ function Home() {
         >
           ↑<br />TOP
         </div>
+
+        <ArchivePopup
+          open={archivePopup}
+          close={()=>setArchivePopup(false)}  
+        />
 
       </main>
 

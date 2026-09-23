@@ -2,14 +2,20 @@ import React from 'react';
 import './PerfumeDetail.css';
 import perfumeDetailData from '../data/perfumesDetailData.js';
 import { Link, useParams, useNavigate } from 'react-router-dom';
+import { useState } from 'react';
+import { useDispatch } from 'react-redux';
 import Button from '../components/Button';
 import bgTxt from '../images/bg_txt.png';
+import { addFavorite } from './store.js';
+import ArchivePopup from '../components/ArchivePopup.js';
 
 
 function PerfumeDetail() {
 
   const { id } = useParams();
   const navigate = useNavigate();
+  const dispatch = useDispatch();
+  const [archivePopup, setArchivePopup]=useState(false);
   const perfume = perfumeDetailData.find(
     (item) => item.id === Number(id)
   );
@@ -41,7 +47,12 @@ function PerfumeDetail() {
           <div className="detail_main_img">
             <img src={perfume.mainImage} alt={perfume.nameKo} />
           </div>
-          <i className="fa-regular fa-heart"></i>
+          {/* <i className="fa-regular fa-heart" onClick={(e)=>{
+            e.preventDefault();
+            e.stopPropagation();
+            dispatch(addFavorite(perfume));
+            setArchivePopup(true);
+          }}></i> */}
         </div>
 
         <div className="detail_text">
@@ -62,8 +73,11 @@ function PerfumeDetail() {
 
           <div className="scent_images">
             {perfume.scentImages.map((image, index)=>(
-              <div className="scent_img" key={index}>
-                <img src={image.src} alt={image.alt} />
+              <div className='scent_perfume_item'>
+                <div className="scent_img" key={index}>
+                  <img src={image.src} alt={image.alt} />
+                </div>
+                <div className='scent_img_info'>{image.alt}</div>
               </div>
             ))}
           </div>
@@ -120,6 +134,11 @@ function PerfumeDetail() {
         />
 
       </div>
+
+      <ArchivePopup
+        open={archivePopup}
+        close={()=>setArchivePopup(false)}  
+      />
 
     </section>
   )

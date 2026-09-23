@@ -208,6 +208,9 @@ main{
   color: var(--point-pink);
   transition: 0.3s;
 }
+.perfumes_list .perfume_img .fa-solid{
+  color: var(--point-pink);
+}
 
 .perfumes_list .item_text{
   text-align: center;

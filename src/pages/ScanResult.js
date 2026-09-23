@@ -1,15 +1,23 @@
 import React from 'react';
 import { useLocation, Link } from 'react-router-dom';
+import { useState } from 'react';
 import './ScanResult.css';
 import perfumeData from '../data/perfumeData';
 import pinkBg from '../images/pink_bg.png';
 import download from '../images/icon/downloading.png';
 import reload from '../images/icon/reload.png';
 import share from '../images/icon/share.png';
+import { useSelector ,useDispatch } from 'react-redux';
+import { addFavorite } from './store';
+import ArchivePopup from '../components/ArchivePopup';
+import FavoriteButton from '../components/FavoriteButton';
 
 function ScanResult() {
 
+  const dispatch = useDispatch();
+  const favorites = useSelector((state)=> state.favorite);
   const location = useLocation();
+  const [archivePopup, setArchivePopup]=useState(false);
   const mood = location.state.mood;
   const use = location.state.use;
   const season = location.state.season;
@@ -64,7 +72,22 @@ function ScanResult() {
                 <div className='perfume_img'>
                   <img src={perfume.image} alt={perfume.name}>
                   </img>
-                  <i className="fa-regular fa-heart"></i>
+                  <FavoriteButton
+                    perfume={perfume}
+                    isFavorite={
+                    favorites.some((item)=>item.id === perfume.id)
+                    }
+                    onFavorite={(perfume)=>{
+                      dispatch(addFavorite(perfume));
+                      setArchivePopup(true);
+                    }}
+                  />
+                  {/* <i className="fa-regular fa-heart" onClick={(e)=>{
+                    e.preventDefault();
+                    e.stopPropagation();
+                    dispatch(addFavorite(perfume));
+                    setArchivePopup(true);
+                  }}></i> */}
                 </div>
 
                 <div className='item_txt'>
@@ -98,10 +121,12 @@ function ScanResult() {
             </div>
           </div>
 
-
-
-
         </div>
+
+        <ArchivePopup
+          open={archivePopup}
+          close={()=>setArchivePopup(false)}  
+        />
 
     </section>
   )

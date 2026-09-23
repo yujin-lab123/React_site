@@ -95,6 +95,9 @@
   color: var(--point-pink);
   transition: 0.3s;
 }
+.scanResult .perfume_img .fa-solid{
+  color: var(--point-pink);
+}
 .item_txt .item_name{
   margin-top: 26px;
   font-size: 18px;

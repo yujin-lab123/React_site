@@ -1,4 +1,95 @@
-h1{
+.Archive_page{
+  padding-top: 60px;
+  width: 1440px;
+  margin: 0 auto;
+}
+
+.Archive_page .bread_nav{
+  width: 1440px;
+  margin: 0 auto;
+  margin-bottom: 60px;
+  display: flex;
+  align-items: center;
+  font-size: 12px;
+  gap: 15px;
+  color: #666;
+}
+.Archive_page .bread_nav .fa-chevron-right{
+  color: #999;
+}
+.Archive_page .bread_nav .home{cursor: pointer;}
+.Archive_page .bread_nav .current{
+  font-weight: 600;
+  color: var(--black-color);
+  cursor: pointer;
+}
+
+/*----------------- 찜하기 -------------------*/
+
+.archive_list{
+  width: 1440px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+.archive_list .empty_message{
+  font-size: 3rem;
+  color: #ccc;
+  font-weight: 600;
+  line-height: 300px;
+}
+
+/*-------------------------------*/
+
+.archive_name_section{
   margin: 100px 0;
+}
+.archive_name_section .archive_name{
+  font-size: 1.25rem;
   text-align: center;
 }
+.archive_name_section .user_name{
+  font-size: 1.75rem;
+  font-weight: 600;
+}
+
+/*-------------------------------*/
+
+.archive_item .archive_perfume{
+  width: 345px; height: auto;
+  border: 1px solid #999;
+  box-sizing: border-box;
+  background-color: var(--ivory-color);
+}
+.archive_item .archive_delete{
+  float: right;
+  margin-top: 10px;
+  margin-right: 10px;
+  font-size: 28px;
+  color: #999;
+}
+.archive_perfume .archive_perfume_name{
+  font-size: 18px;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+
+.Archive_page .margin_box{
+  height: 100px;
+}
+.Archive_page{position: relative;}
+.Archive_page .pinkBg{
+  width: 700px;
+  position: absolute;
+  top: 0;
+  right: -130px;
+  z-index: -1;
+}
+
+
+
+
+

@@ -1,0 +1,45 @@
+.Archive_popup {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%; height: 100%;
+  background: rgba(0, 0, 0, 0.3);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 9999;
+}
+
+.archive_popup_box {
+  position: relative;
+  width: 400px; height: 200px;
+  background: #fff;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.archive_popup_box .popup_message{
+  font-size: 20px;
+}
+.archive_popup_box .popup_btn{
+  border: 1px solid var(--black-color);
+  padding: 5px 10px;
+  margin-top: 30px;
+}
+
+.popup_close {
+  position: absolute;
+  top: 10px;
+  right: 15px;
+
+  border: none;
+  background: none;
+
+  font-size: 24px;
+  cursor: pointer;
+}
+.popup_close .fa-xmark{
+  color: #999;
+}

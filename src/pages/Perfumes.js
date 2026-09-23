@@ -4,9 +4,16 @@ import { Link } from 'react-router-dom';
 import perfumeData from '../data/perfumeData';
 import pinkBg from '../images/pink_bg.png';
 import './Perfumes.css';
+import { addFavorite } from './store';
+import { useSelector ,useDispatch } from 'react-redux';
+import ArchivePopup from '../components/ArchivePopup';
+import FavoriteButton from '../components/FavoriteButton';
 
 function Perfumes() {
 
+const dispatch = useDispatch();
+const favorites = useSelector((state)=> state.favorite);
+const [archivePopup, setArchivePopup]=useState(false);
 const [sortSelect, setSortSelect] = useState('popular');
 
 let sortedPerfumes = [...perfumeData];
@@ -54,7 +61,22 @@ if (sortSelect === 'new') {
         <div className="perfume_item" key={perfume.id}>
           <div className="perfume_img">
             <img src={perfume.image} alt={perfume.name} />
-            <i className="fa-regular fa-heart"></i>
+            <FavoriteButton
+              perfume={perfume}
+              isFavorite={
+              favorites.some((item)=>item.id === perfume.id)
+              }
+              onFavorite={(perfume)=>{
+                dispatch(addFavorite(perfume));
+                setArchivePopup(true);
+              }}
+            />
+            {/* <i className="fa-regular fa-heart" onClick={(e)=>{
+              e.preventDefault();
+              e.stopPropagation();
+              dispatch(addFavorite(perfume));
+              setArchivePopup(true);
+            }}></i> */}
           </div>
 
           <div className="item_text">
@@ -72,7 +94,15 @@ if (sortSelect === 'new') {
       ))}
       </div>
 
+
+      <ArchivePopup
+        open={archivePopup}
+        close={()=>setArchivePopup(false)}  
+      />
+
     </section>
+    
+    
   )
 }
 
