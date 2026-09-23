@@ -229,7 +229,7 @@
     mainImage: process.env.PUBLIC_URL+'/images/perfumes/perfume5.png',
     scentImages: [
       { src: process.env.PUBLIC_URL+'/images/perfume_detail/id05_01.jpg', alt: "연보라색 아이리스 꽃" },
-      { src: process.env.PUBLIC_URL+'/images/perfume_detail/id05_02.jpg', alt: "파우더 가루·화장솜" },
+      { src: process.env.PUBLIC_URL+'/images/perfume_detail/id05_02.jpg', alt: "파우더 가루" },
       { src: process.env.PUBLIC_URL+'/images/perfume_detail/id05_03.jpg', alt: "실크 스카프" },
       { src: process.env.PUBLIC_URL+'/images/perfume_detail/id05_04.jpg', alt: "라벤더빛 노을 하늘" },
     ],
@@ -341,7 +341,7 @@
       { src: process.env.PUBLIC_URL+'/images/perfume_detail/id07_01.jpg', alt: "분홍빛 꽃다발" },
       { src: process.env.PUBLIC_URL+'/images/perfume_detail/id07_02.jpg', alt: "안개 낀 봄날 정원" },
       { src: process.env.PUBLIC_URL+'/images/perfume_detail/id07_03.jpg', alt: "핑크 리본·새틴" },
-      { src: process.env.PUBLIC_URL+'/images/perfume_detail/id07_04.jpg', alt: "설탕 입힌 마카롱·디저트" },
+      { src: process.env.PUBLIC_URL+'/images/perfume_detail/id07_04.jpg', alt: "달콤한 마카롱·디저트" },
     ],
     scentInfo: [
       {
@@ -450,7 +450,7 @@
     scentImages: [
       { src: process.env.PUBLIC_URL+'/images/perfume_detail/id09_01.jpg', alt: "창가에 드는 아침 햇살" },
       { src: process.env.PUBLIC_URL+'/images/perfume_detail/id09_02.jpg', alt: "연분홍 꽃잎" },
-      { src: process.env.PUBLIC_URL+'/images/perfume_detail/id09_03.jpg', alt: "얇게 썬 레몬·자몽" },
+      { src: process.env.PUBLIC_URL+'/images/perfume_detail/id09_03.jpg', alt: "얇게 썬 레몬" },
       { src: process.env.PUBLIC_URL+'/images/perfume_detail/id09_04.jpg', alt: "반짝이는 은은한 빛망울" },
     ],
     scentInfo: [
@@ -504,9 +504,9 @@
     mainImage: process.env.PUBLIC_URL+'/images/perfumes/perfume10.png',
     scentImages: [
       { src: process.env.PUBLIC_URL+'/images/perfume_detail/id10_01.jpg', alt: "탁 트인 여름 바다" },
-      { src: process.env.PUBLIC_URL+'/images/perfume_detail/id10_02.jpg', alt: "얼음 띄운 레모네이드" },
+      { src: process.env.PUBLIC_URL+'/images/perfume_detail/id10_02.jpg', alt: "탄산수 속 레몬" },
       { src: process.env.PUBLIC_URL+'/images/perfume_detail/id10_03.jpg', alt: "파도에 부서지는 물보라" },
-      { src: process.env.PUBLIC_URL+'/images/perfume_detail/id10_04.jpg', alt: "푸른 하늘과 수평선" },
+      { src: process.env.PUBLIC_URL+'/images/perfume_detail/id10_04.jpg', alt: "푸른 하늘과 하얀 구름" },
     ],
     scentInfo: [
       {
