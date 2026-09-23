@@ -68,6 +68,7 @@ main{
   bottom: -40px;
   left: 50%;
   transform: translateX(-50%);
+  font-family: 'GowoonDodum';
 }
 .formula_intro{position: relative;}
 .formula_intro .scan_btn{
@@ -131,6 +132,7 @@ main{
 .intro_txt02{
   font-size: 16px;
   margin-top: 20px;
+  font-family: 'GowoonDodum';
 }
 
 /*-------------/인트로 소개------------------*/
@@ -269,9 +271,11 @@ main{
   color: #999;
 }
 .story_text .story_desc{
-  height: 120px;
+  height: 130px;
   font-size: 14px;
   margin-top: 10px;
+  font-family: 'GowoonDodum';
+  letter-spacing: 1px;
 }
 
 .story_box .story_text .common_btn{
@@ -356,6 +360,7 @@ main{
 
 /*---------------/last_content---------------*/
 
+/*------------TOP버튼---------------*/
 body{position: relative;}
 .top_btn{
   position: fixed;

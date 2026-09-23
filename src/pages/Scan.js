@@ -122,6 +122,16 @@ function Scan() {
 
         </div>
 
+        <div className="top_btn"
+          onClick={()=>{
+            window.scrollTo({
+              top: 0,
+              behavior: 'smooth'
+            });
+          }}
+        >
+          ↑<br />TOP
+        </div>
 
       </section>
 

@@ -135,6 +135,17 @@ function PerfumeDetail() {
 
       </div>
 
+      <div className="top_btn"
+          onClick={()=>{
+            window.scrollTo({
+              top: 0,
+              behavior: 'smooth'
+            });
+          }}
+        >
+          ↑<br />TOP
+        </div>
+
       <ArchivePopup
         open={archivePopup}
         close={()=>setArchivePopup(false)}  

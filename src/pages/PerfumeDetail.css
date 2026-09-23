@@ -10,6 +10,8 @@
 .perfume_title_box .detail_sub_title{
   font-size: 14px;
   color: #333;
+  font-family: 'GowoonDodum';
+  letter-spacing: 1px;
 }
 
 /*------------common-----------------*/
@@ -138,7 +140,9 @@
   font-size: 20px;
 }
 .scent_info .scent_info_txt{
-  line-height: 20px;
+  line-height: 22px;
+  font-family: 'GowoonDodum';
+  letter-spacing: 1px;
 }
 
 /*---------------Scent Story----------------*/
@@ -154,6 +158,8 @@
 .scent_story_content .story_text_box .story_text{
   line-height: 26px;
   margin-bottom: 30px;
+  font-family: 'GowoonDodum';
+  letter-spacing: 1px;
 }
 
 /*------다른 향수 알아보기 버튼------*/
@@ -193,4 +199,26 @@ body{position: relative;}
   position: absolute;
   top: 5%;
   right: 0;
+}
+
+
+/*------------TOP버튼---------------*/
+body{position: relative;}
+.top_btn{
+  position: fixed;
+  bottom: 10%; right: 20px;
+  width: 70px; height: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid var(--black-color);
+  border-radius: 50%;
+  background-color: rgba(255, 255, 255, 0.5);
+  font-size: 18px;
+  text-align: center;
+  cursor: pointer;
+}
+.top_btn:hover{
+  font-size: 19px;
+  transition: 0.3s;
 }

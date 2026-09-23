@@ -1,5 +1,6 @@
 import './App.css';
-import { Routes, Route, Link } from 'react-router-dom';
+import { Routes, Route, Link, useLocation } from 'react-router-dom';
+import { useEffect } from 'react';
 
 import Home from './pages/Home';
 import Scan from './pages/Scan';
@@ -14,6 +15,13 @@ import footerLogo from './images/icon/logo_scentlab01.png';
 
 
 function App() {
+
+  const location = useLocation();
+
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, [location.pathname]);
+
   return (
     <div className="App">
 
@@ -22,8 +30,8 @@ function App() {
 
           <ul className='header_gnb'>
           <li><Link to="/">Home</Link></li>
-          <li><Link to="/Scan">Scan</Link></li>
-          <li><Link to="/Perfumes">Perfumes</Link></li>
+          <li><Link to="/scan">Scan</Link></li>
+          <li><Link to="/perfumes">Perfumes</Link></li>
           <li><Link to="/archive">Archive</Link></li>
         </ul>
 

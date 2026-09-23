@@ -53,6 +53,17 @@ function Archive() {
 
       <div className="margin_box"></div>
 
+      <div className="top_btn"
+          onClick={()=>{
+            window.scrollTo({
+              top: 0,
+              behavior: 'smooth'
+            });
+          }}
+        >
+          ↑<br />TOP
+        </div>
+
     </section>
   )
 }
