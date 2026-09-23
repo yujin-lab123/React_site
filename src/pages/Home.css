@@ -37,11 +37,52 @@ main{
   font-weight: 600;
 }
 
+
+/*--------------인트로 소개------------------*/
+
+.intro_info{
+  height: 800px;
+  position: relative;
+}
+.intro_info .bgTxt{
+  width: 900px; height: auto;
+  position: absolute;
+  top: 30%;
+  right: 0;
+  background-size: cover;
+  z-index: -1;
+}
+.introImg01{
+  width: 500px; height: auto;
+  position: absolute;
+  top: 12%;
+  left: 10%;
+}
+
+.intro_txt{
+  position: absolute;
+  bottom: 100px;
+  right: 20%;
+  padding: 40px 50px;
+  background-color: var(--deep-ivory);
+}
+.intro_txt01{
+  font-size: 18px;
+  font-weight: 600;
+}
+.intro_txt02{
+  font-size: 16px;
+  margin-top: 20px;
+  font-family: 'GowoonDodum';
+}
+
 /*--------------인트로-----------------*/
 
 .formula_intro{
-  margin-top: 150px;
-  height: 380px;
+  width: 1300px; height: 380px;
+  position: absolute;
+  top: 20%;
+  right: -30%;
 }
 .formula_title{
   position: relative;
@@ -85,61 +126,11 @@ main{
   transition: 0.3s;
 }
 
-/*-------------/인트로------------------*/
-
-
-
-.intro_info{
-  height: 850px;
-  position: relative;
-}
-.bgTxt{
-  width: 1000px; height: auto;
-  position: absolute;
-  top: -400px;
-  right: 0;
-  background-size: cover;
-  z-index: -1;
-}
-.intro_info img{
-  position: absolute;
-}
-.introImg01{
-  width: 500px; height: auto;
-  left: 10%;
-}
-.introImg02{
-  width: 400px; height: auto;
-  right: 15%;
-}
-.introImg03{
-  width: 150px; height: auto;
-  top: 150px;
-  right: 32%;
-}
-
-.intro_txt{
-  position: absolute;
-  bottom: 230px;
-  right: 25%;
-  padding: 40px 50px;
-  background-color: var(--deep-ivory);
-}
-.intro_txt01{
-  font-size: 18px;
-  font-weight: 600;
-}
-.intro_txt02{
-  font-size: 16px;
-  margin-top: 20px;
-  font-family: 'GowoonDodum';
-}
-
 /*-------------/인트로 소개------------------*/
 
 .best_perfumes{
   margin-top: 50px;
-  margin-bottom: 100px;
+  margin-bottom: 50px;
   z-index: 1;
 }
 
@@ -290,31 +281,38 @@ main{
 } 
 
 
-/*------------/scent_story---------------*/
-
-.deco_txt{
-  text-align: center;
-  font-size: 60px;
-  margin-top: 120px;
-  margin-bottom: 200px;
-  color: var(--main-pink);
-}
-.deco_txt .deco_black{
-  color: var(--black-color);
-}
-
 /*---------------last_contetn---------------*/
 
 .last_box{
   display: grid;
   grid-template-columns: 1fr 1fr;
+  position: relative;
+  margin-top: 130px;
 }
 
 .lastbg01{
   grid-column: 1 / 3;
   width: 100%; height: auto;
   object-fit: cover;
+  z-index: 1;
 }
+
+.last_box .deco_txt{
+  position: absolute;
+  top: 5%;
+  left: 50%;
+  transform: translateX(-50%);
+  text-align: center;
+  font-size: 60px;
+  margin-top: 120px;
+  margin-bottom: 200px;
+  color: var(--main-pink);
+  z-index: 2;
+}
+.deco_txt .deco_black{
+  color: var(--black-color);
+}
+
 .lastbg02{
   grid-column: 1 / 2;
   width: 100%; height: auto;

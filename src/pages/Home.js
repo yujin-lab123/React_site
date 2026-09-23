@@ -57,7 +57,9 @@ function Home() {
             <span>향의 공식</span>을 찾습니다.</p>
         </section>
 
-        <section className='formula_intro'>
+        <section className='intro_info'>
+
+        <div className='formula_intro'>
           <div className="formula_title">
             <p className='title_main'>Find Your Scent Formula</p>
             <p className='title_shadow'>Find Your Scent Formula</p>
@@ -65,15 +67,11 @@ function Home() {
           </div>
           <Link to="/scan" className="scan_btn">
           분석해보기 →</Link>
-        </section>
-
-        <section className='intro_info'>
+        </div>
 
           <img className='bgTxt' src={bgTxt} alt="백그라운드 텍스트" />
 
           <img className='introImg01' src={intro01} alt="인트로01" />
-          <img className='introImg02' src={intro02} alt="인트로02" />
-          <img className='introImg03' src={intro03} alt="인트로03" />
 
           <div className="intro_txt">
             <p className="intro_txt01">향수, 어렵게 느껴지셨다면 SCENT LAB이 도와드릴게요.</p>
@@ -174,17 +172,18 @@ function Home() {
           </div>
         </section>
 
-        <section className='deco_txt'>
+        <section className='last_box'>
+          
+          <img className='lastbg01' src={lastBg01} alt="lastbg01" />
+
+          <div className='deco_txt'>
           <p className='deco01'><span className='deco_black'>Find</span> Your Scent Formula&nbsp;&nbsp;&nbsp;</p>
           <p className='deco02'>&nbsp;&nbsp;Find <span className='deco_black'>Your</span> Scent Formula</p>
           <p className='deco03'>Find Your <span className='deco_black'>Scent</span> Formula&nbsp;&nbsp;</p>
           <p className='deco04'>Find Your Scent <span className='deco_black'>Formula</span></p>
-        </section>
+        </div>
 
-        <section className='last_box'>
-          
-          <img className='lastbg01' src={lastBg01} alt="lastbg01" />
-            <img className='lastbg02' src={lastBg02} alt="lastbg02" />
+          <img className='lastbg02' src={lastBg02} alt="lastbg02" />
 
             <div className="lastbg03">
               <div className="lastbg_text">
